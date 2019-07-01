@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.Web", "Tree.Web\Tree.Web.csproj", "{A9712748-C2CD-409D-AF0C-1C1E2DD6E812}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree.Web", "Tree.Web\Tree.Web.csproj", "{A9712748-C2CD-409D-AF0C-1C1E2DD6E812}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.DAL", "Tree.DAL\Tree.DAL.csproj", "{E305EC50-4B55-4A9D-890C-862047904E7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree.DAL", "Tree.DAL\Tree.DAL.csproj", "{E305EC50-4B55-4A9D-890C-862047904E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.BLL", "Tree.BLL\Tree.BLL.csproj", "{0304DD07-865C-4A79-B5E5-6B5EDC8185A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E305EC50-4B55-4A9D-890C-862047904E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E305EC50-4B55-4A9D-890C-862047904E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E305EC50-4B55-4A9D-890C-862047904E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0304DD07-865C-4A79-B5E5-6B5EDC8185A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0304DD07-865C-4A79-B5E5-6B5EDC8185A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0304DD07-865C-4A79-B5E5-6B5EDC8185A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0304DD07-865C-4A79-B5E5-6B5EDC8185A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
